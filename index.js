@@ -3,9 +3,9 @@ const port = 8000;
 const app = express();
 
 
-app.get('/',(req,res)=>{
-    return res.send('Hi this is me');
-})
+// Use express Router
+app.use('/',require('./routes/index'));
+
 app.listen(port,(err)=>{
     if(err){
         console.log(`Error on running: ${err}`);
