@@ -2,6 +2,10 @@ const express = require('express');
 const port = 8000;
 const app = express();
 
+// setup the view engine
+app.set('view engine', 'ejs');
+app.set('views','./views');
+
 
 // Use express Router
 app.use('/',require('./routes'));
