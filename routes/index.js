@@ -10,7 +10,7 @@ router.get('/',homeController.home);
 router.use('/users',require('./users'));
 
 // for further adding any routes
-// router.use('./routesName',require(./userName))
+// router.use('/routesName',require(./userName))
 
 
 module.exports = router;
