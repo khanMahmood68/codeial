@@ -1,0 +1,23 @@
+#header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 5px;
+    background: linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    height: 40px;
+    color: white;
+    ul{
+        display: flex;
+        justify-content: end;
+        padding: 0px 10px;
+        list-style:none;
+        li{
+            margin: 4px;
+            a{
+                text-decoration: none;
+                color:white;
+            }
+        }
+    };
+    
+}

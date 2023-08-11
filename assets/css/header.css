@@ -1,0 +1,25 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px;
+  background: linear-gradient(90deg, #9bafd9 0%, #103784 100%);
+  height: 40px;
+  color: white;
+}
+
+#header ul {
+  display: flex;
+  justify-content: end;
+  padding: 0px 10px;
+  list-style: none;
+}
+
+#header ul li {
+  margin: 4px;
+}
+
+#header ul li a {
+  text-decoration: none;
+  color: white;
+}

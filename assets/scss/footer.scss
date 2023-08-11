@@ -1,0 +1,18 @@
+#footer{
+    display: flex;
+    background: linear-gradient(90deg, hsla(164, 38%, 18%, 1) 0%, hsla(158, 77%, 77%, 1) 100%);
+    color: white;
+    padding: 10px;
+
+    align-items: center;
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+       
+    }
+}
