@@ -1,7 +1,15 @@
-module.exports.home=function(req, res){
+const User = require('../models/post');
+
+module.exports.home = async function(req, res){
+
+    // Populate the user of each posts
+    
+    const posts = await User.find({}).populate('user').exec();
     return res.render('home',{
-        title:'Home'
+        title:'Codeial | Home',
+        posts:posts
     })
+   
 }
 
 // module.exports.actionName=function(req, res){}
